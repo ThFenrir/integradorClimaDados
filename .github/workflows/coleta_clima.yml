@@ -1,1 +1,37 @@
+name: Coleta de Dados Climáticos
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Executa a cada hora
+
+jobs:
+  coleta_clima:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checar Repositório
+        uses: actions/checkout@v2
+
+      - name: Configurar Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar Script
+        run: python coleta_clima.py
+
+      - name: Commit e Push
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add dados_clima.csv
+          git commit -m 'Atualizar dados climáticos'
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
