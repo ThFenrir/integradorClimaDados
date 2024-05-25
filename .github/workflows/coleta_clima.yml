@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Executar Script
-        run: python coleta_clima.py
+        run: python integrador_coleta_dados.py
 
       - name: Commit e Push
         run: |
