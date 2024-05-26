@@ -52,6 +52,7 @@ def coleta_dados_clima (cidade):
 def coleta_dados():
     dados_clima = [coleta_dados_clima(cidade) for cidade in CIDADES]
     df = pd.DataFrame(dados_clima)
+    df.to_csv("dados_clima_recente.csv", index=False)
     try:
         df_existente = pd.read_csv(ARQUIVO)
         df = pd.concat([df_existente, df])
