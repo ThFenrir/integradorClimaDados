@@ -20,7 +20,7 @@ def coleta_dados_clima (cidade):
     resposta = requests.get(LINK)
     dados = resposta.json()
 
-    hora_atual = datetime.now(pytz.timezone("America/Sao_Paulo"))
+    hora_atual = datetime.now(pytz.timezone("America/Sao_Paulo")).strftime('%Y-%m-%d %H:%M:%S')
     
     return {
         # Localização
