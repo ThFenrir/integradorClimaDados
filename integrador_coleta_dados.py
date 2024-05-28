@@ -1,6 +1,8 @@
 import requests
 import pandas as pd
+import pytz
 import os
+from datetime import datetime
 
 API_KEY = "749fb04c29811e3ced1e4c547f08ccbe"
 CIDADES = [
@@ -17,6 +19,8 @@ def coleta_dados_clima (cidade):
     LINK = f"https://api.openweathermap.org/data/2.5/weather?q={cidade},BR&appid={API_KEY}&units=metric"
     resposta = requests.get(LINK)
     dados = resposta.json()
+
+    hora_atual = datetime.now(pytz.timezone("America/Sao_Paulo"))
     
     return {
         # Localização
@@ -46,7 +50,7 @@ def coleta_dados_clima (cidade):
         "visibilidade": dados['visibility'],
 
         # Horário
-        "hora": pd.Timestamp.now()
+        "hora": hora_atual
     }
 
 def coleta_dados():
