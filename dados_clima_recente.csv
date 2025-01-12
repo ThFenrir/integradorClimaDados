@@ -1,28 +1,28 @@
 cidade,temperatura,sens_termica,temp_min,temp_max,umidade,clima,descricao,velo_vento,direcao_vento,pressao,visibilidade,hora
-Rio Branco,25.34,26.38,25.34,25.34,94,Thunderstorm,thunderstorm with light rain,1.03,210,1007,8000,2025-01-12 18:13:41
-Maceió,26.69,30.21,26.69,26.69,94,Clouds,overcast clouds,4.12,60,1011,10000,2025-01-12 18:13:41
-Macapá,28.99,34.5,28.99,28.99,79,Rain,light rain,3.09,60,1009,10000,2025-01-12 18:13:41
-Manaus,26.27,26.27,26.27,27.28,89,Rain,light rain,2.06,50,1006,10000,2025-01-12 18:13:41
-Salvador,25.98,25.98,25.98,25.98,82,Rain,moderate rain,6.5,23,1008,5655,2025-01-12 18:13:41
-Fortaleza,29.07,33.66,28.45,29.07,74,Clouds,scattered clouds,3.6,70,1010,10000,2025-01-12 18:13:41
-Brasília,20.51,21.23,19.79,20.51,100,Thunderstorm,thunderstorm with light rain,4.63,210,1008,6000,2025-01-12 18:13:41
-Vitória,25.48,26.3,25.48,25.92,85,Clouds,broken clouds,4.12,190,1010,10000,2025-01-12 18:13:41
-Goiânia,28.83,29.93,28.83,28.83,54,Clouds,scattered clouds,2.06,100,1007,10000,2025-01-12 18:13:41
-São Luís,29.11,33.76,29.11,29.11,74,Clouds,broken clouds,6.69,40,1009,10000,2025-01-12 18:13:42
-Cuiabá,28.96,33.4,28.96,28.96,74,Clouds,broken clouds,3.6,190,1006,10000,2025-01-12 18:13:42
-Campo Grande,31.75,32.84,31.75,31.75,45,Clouds,scattered clouds,3.6,240,1004,10000,2025-01-12 18:13:42
-Belo Horizonte,24.12,24.57,24.12,24.12,76,Rain,light rain,0.89,163,1008,9463,2025-01-12 18:13:42
-Belém,27.02,30.69,27.02,27.02,89,Rain,moderate rain,1.54,50,1009,10000,2025-01-12 18:13:42
-João Pessoa,28.13,32.11,28.13,28.13,78,Clouds,broken clouds,4.63,60,1011,10000,2025-01-12 18:13:42
-Curitiba,16.46,15.88,16.14,16.95,66,Clouds,overcast clouds,5.14,130,1012,10000,2025-01-12 18:13:42
-Recife,28.02,31.84,28.02,28.02,78,Clouds,broken clouds,4.12,50,1011,9000,2025-01-12 18:13:42
-Teresina,28.84,33.11,28.84,28.84,74,Clouds,broken clouds,4.12,190,1010,10000,2025-01-12 18:13:42
-Rio de Janeiro,24.98,25.54,24.98,25.0,77,Clouds,broken clouds,4.02,160,1010,10000,2025-01-12 18:13:42
-Natal,28.36,32.67,28.36,28.36,78,Clouds,broken clouds,5.14,80,1010,10000,2025-01-12 18:13:42
-Porto Alegre,25.3,25.4,24.99,26.26,58,Clouds,scattered clouds,7.2,100,1012,10000,2025-01-12 18:13:43
-Porto Velho,27.03,30.71,27.03,27.03,89,Rain,moderate rain,2.57,360,1006,10000,2025-01-12 18:13:43
-Boa Vista,31.99,32.82,31.99,31.99,43,Clouds,broken clouds,6.17,70,1006,10000,2025-01-12 18:13:43
-Florianópolis,24.72,24.74,22.57,24.79,57,Clouds,broken clouds,4.12,130,1012,10000,2025-01-12 18:13:43
-São Paulo,20.7,20.97,19.69,21.72,82,Clouds,broken clouds,6.69,160,1010,10000,2025-01-12 18:13:43
-Aracaju,25.97,25.97,25.97,25.97,89,Clouds,overcast clouds,2.06,80,1010,10000,2025-01-12 18:13:43
-Palmas,25.93,26.9,25.93,25.93,89,Thunderstorm,thunderstorm with light rain,4.63,300,1008,7000,2025-01-12 18:13:43
+Rio Branco,25.34,26.38,25.34,25.34,94,Thunderstorm,thunderstorm,3.09,20,1007,10000,2025-01-12 19:13:54
+Maceió,26.69,30.21,26.69,26.69,94,Clouds,overcast clouds,2.06,40,1011,10000,2025-01-12 19:13:54
+Macapá,26.99,30.0,26.99,26.99,83,Clouds,scattered clouds,4.12,50,1009,10000,2025-01-12 19:13:54
+Manaus,27.27,30.69,27.27,27.28,83,Clouds,broken clouds,2.06,20,1007,10000,2025-01-12 19:13:54
+Salvador,25.98,25.98,25.98,25.98,83,Clouds,overcast clouds,6.99,24,1009,10000,2025-01-12 19:13:54
+Fortaleza,28.07,31.96,28.07,28.45,78,Rain,light rain,3.6,80,1010,10000,2025-01-12 19:13:54
+Brasília,20.51,21.23,19.79,20.51,100,Rain,heavy intensity rain,2.06,10,1009,10000,2025-01-12 19:13:54
+Vitória,24.92,25.77,24.92,24.92,88,Clouds,broken clouds,4.63,190,1010,6000,2025-01-12 19:13:54
+Goiânia,23.83,24.31,23.83,23.83,78,Thunderstorm,thunderstorm with rain,5.14,260,1008,10000,2025-01-12 19:13:54
+São Luís,28.11,32.06,28.11,28.11,78,Clouds,broken clouds,5.14,40,1010,10000,2025-01-12 19:13:54
+Cuiabá,24.96,25.81,24.96,24.96,88,Thunderstorm,thunderstorm with light rain,1.54,90,1007,3000,2025-01-12 19:13:54
+Campo Grande,30.75,33.2,30.75,30.75,55,Clouds,scattered clouds,3.6,280,1004,10000,2025-01-12 19:13:54
+Belo Horizonte,22.46,23.01,22.46,22.46,86,Clouds,overcast clouds,1.79,151,1009,10000,2025-01-12 19:13:54
+Belém,27.02,31.23,27.02,27.02,94,Rain,moderate rain,2.06,90,1010,10000,2025-01-12 19:13:54
+João Pessoa,28.13,32.92,28.13,28.13,83,Clouds,scattered clouds,3.6,50,1012,10000,2025-01-12 19:13:54
+Curitiba,16.0,15.48,15.59,17.08,70,Drizzle,light intensity drizzle,4.12,130,1013,10000,2025-01-12 19:13:54
+Recife,28.02,32.62,28.02,28.02,83,Rain,light rain,3.6,60,1012,10000,2025-01-12 19:13:54
+Teresina,28.84,34.09,28.84,28.84,79,Clear,clear sky,3.09,190,1011,10000,2025-01-12 19:13:54
+Rio de Janeiro,24.53,25.05,23.98,25.0,77,Clouds,broken clouds,2.68,170,1011,10000,2025-01-12 19:13:54
+Natal,28.36,32.67,28.36,28.36,78,Clouds,broken clouds,4.63,90,1011,10000,2025-01-12 19:13:54
+Porto Alegre,24.67,24.76,23.88,25.75,60,Clouds,scattered clouds,7.2,100,1013,10000,2025-01-12 19:13:54
+Porto Velho,27.03,30.71,27.03,27.03,89,Rain,moderate rain,2.06,350,1007,10000,2025-01-12 19:13:54
+Boa Vista,30.99,32.22,30.99,30.99,48,Clouds,scattered clouds,3.09,90,1007,10000,2025-01-12 19:13:54
+Florianópolis,23.12,23.29,21.57,23.12,69,Clouds,broken clouds,2.57,150,1013,10000,2025-01-12 19:13:54
+São Paulo,19.81,20.04,19.14,20.61,84,Clouds,broken clouds,5.66,150,1011,10000,2025-01-12 19:13:55
+Aracaju,25.97,25.97,25.97,25.97,89,Clouds,overcast clouds,1.03,0,1010,10000,2025-01-12 19:13:55
+Palmas,25.93,26.9,25.93,25.93,89,Rain,moderate rain,2.06,150,1009,10000,2025-01-12 19:13:55
